@@ -1,0 +1,5 @@
+langchain
+python-dotenv
+ipykernel
+langchain-community
+validators==0.28.1
