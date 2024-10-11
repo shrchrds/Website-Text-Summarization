@@ -14,8 +14,8 @@ This project is a Streamlit application designed to summarize text content from 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject```
+   git clone https://github.com/shrchrds/Website-Text-Summarization.git
+   cd Website-Text-Summarization```
 
 2. Create a virtual environment:
     ```bash
