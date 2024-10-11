@@ -1,21 +1,22 @@
-# Summarize Text From Website
+# Website Text Summarization
 
-This project is a Streamlit application designed to summarize text content from a given website URL using a language model API called Groq. The application fetches the content from the specified webpage and generates a concise summary using a language model.
+This Streamlit application generates concise summaries of webpage content from a given URL, using the **Groq** language model (Gemma-7b-It).
 
 ## Features
 
-- **URL Validation**: Ensures that the user inputs a valid URL.
-- **Web Scraping**: Retrieves webpage content using `requests` and `BeautifulSoup`.
-- **Language Model Integration**: Utilizes the Groq API with the Gemma-7b-It model for text summarization.
-- **User-Friendly Interface**: Built with Streamlit for easy interaction.
-- **Error Handling**: Provides feedback and error messages for invalid URLs or failed content retrieval.
+- **URL Validation**: Ensures valid URLs are entered.
+- **Web Scraping**: Fetches webpage content via `requests` and `BeautifulSoup`.
+- **AI-Powered Summarization**: Uses the Groq API (Gemma-7b-It model) for generating summaries.
+- **Intuitive Interface**: Built with Streamlit for easy use.
+- **Error Handling**: Provides clear feedback on invalid URLs or content retrieval failures.
 
 ## Installation
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/shrchrds/Website-Text-Summarization.git
-   cd Website-Text-Summarization```
+   cd Website-Text-Summarization
+
 
 2. Create a virtual environment:
     ```bash
@@ -31,10 +32,10 @@ This project is a Streamlit application designed to summarize text content from 
     - Add your Groq API key:
     ```GROQ_API_KEY=your_groq_api_key_here```
 
-5. Usage
-    i. Run the Streamlit app:
+# Usage
+1. Run the Streamlit app:
         ```streamlit run app.py```
-    ii. Enter a URL:
-        Input the URL of the webpage you want to summarize in the text input field.
-    iii. Summarize:
-        Click the "Summarize the Content from Website" button to generate a summary.
+2. Enter a URL:
+    Input the URL of the webpage you want to summarize in the text input field.
+3. Summarize:
+    Click the "Summarize the Content from Website" button to generate a summary.
